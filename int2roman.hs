@@ -11,6 +11,7 @@ main = do
             putStrLn(res)
             main
 
+-- Convert an integer to Roman numerals with recursion
 int2rom :: Int -> String -> [Int] -> [String] -> String
 int2rom a b values numerals
     | a == 0 = b
