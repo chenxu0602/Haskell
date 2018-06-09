@@ -10,7 +10,7 @@ main = do
                 points = read line2 :: [(Float, Float)]
                 distances = calcSquareDistances points
                 res = isSquare distances
-            putStrLn(show res)
+            print(res)
             main
 
 -- Test if a square by comparing the sides and diagnals
